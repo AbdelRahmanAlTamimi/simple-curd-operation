@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Data Management</title>
+    
+</head>
+
+<body>
+    <h1>User Data Management</h1>
+
+    <div class="container">
+        <h2>Add User</h2>
+        <form id="add-user-form">
+            <!-- <label for="addUserId">ID:</label>
+            <input type="number" id="addUserId" name="id" required><br> -->
+
+            <label for="addUserName">Name:</label>
+            <input type="text" id="addUserName" name="name" required><br>
+
+            <label for="addUserEmail">Email:</label>
+            <input type="email" id="addUserEmail" name="email" required><br>
+
+            <label for="addUserPassword">Password:</label>
+            <input type="password" id="addUserPassword" name="password" required><br>
+
+            <button type="button" onclick="createData()">Create User</button>
+        </form>
+    </div>
+
+
+    <div class="container">
+        <h2>Search User by ID</h2>
+        <form id="search-user-form">
+            <label for="searchUserId">ID:</label>
+            <input type="number" id="searchUserId" name="id" required><br>
+
+            <button type="button" onclick="readData()">Search User</button>
+            <div class="response"></div>
+        </form>
+    </div>
+    <div class="container">
+        <h2>Update User</h2>
+        <form id="update-user-form">
+            <label for="updateUserId">ID:</label>
+            <input type="text" id="updateUserId" name="id" required><br>
+    
+            <label for="updateUserName">Name:</label>
+            <input type="text" id="updateUserName" name="name" required><br>
+    
+            <label for="updateUserEmail">Email:</label>
+            <input type="email" id="updateUserEmail" name="email" required><br>
+    
+            <label for="updateUserPassword">Password:</label>
+            <input type="password" id="updateUserPassword" name="password" required><br>
+    
+            <button type="button" onclick="updateData()">Update User</button>
+        </form>
+    </div>
+    <div class="container">
+        <h2>Delete User</h2>
+        <form id="delete-user-form">
+            <label for="deleteUserId">ID:</label>
+            <input type="number" id="deleteUserId" name="id" required><br>
+
+            <button type="button" onclick="deleteData()">Delete User</button>
+        </form>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

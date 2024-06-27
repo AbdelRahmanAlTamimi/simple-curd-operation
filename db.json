@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "hashed_password_2"
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "hashed_password_3"
+    },
+    {
+      "id": "21",
+      "name": "sdfdsfg",
+      "email": "xdfadfg",
+      "password": "sdfdf"
+    },
+    {
+      "id": "4",
+      "name": "koko",
+      "email": "icloud",
+      "password": "1234"
+    }
+  ]
+}
